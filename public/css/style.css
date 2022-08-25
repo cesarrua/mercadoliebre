@@ -1,0 +1,169 @@
+body{
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 10px;
+    margin-right: 0;
+    font-family: 'Roboto', sans-serif;
+        
+}
+header, main{
+    background-color: #EAC926;
+}
+header{
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+main{
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+.logo{
+    width: 300px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.barra-busqueda{
+    padding-left: 20px;
+}
+.comprá{
+    text-align: center;
+}
+
+.barra-burguer{
+    background-color: #1259c3;;
+    color:white;
+    display: flex;
+    margin:auto;
+    height: 30px;
+    width: 30px;
+    border-radius: 20%;
+    padding-top: 7px;
+}
+
+/*cubre todo el contenedor del banner, evitando que se vea el fondo blanco*/
+.banner{
+    /*margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;*/
+    background-color: #EAC926;
+}
+
+
+.banner-img{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /*background-color: #EAC926;*/
+    padding-top: 30px;
+    padding-bottom: 10px;
+    
+}
+
+img{
+    width: 390px;
+
+}
+#visita{
+    background-color: #EAC926;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 24px;
+}
+
+.precio{
+    font-size: 18px;
+}
+
+.descuento{
+    font-size: 16px;
+}
+.navcontainer{
+    padding-left: 0;
+
+}
+/* le quita el punto a la lista desordenada y lo alínea a la izquierda*/
+.navcontainer ul{
+    list-style: none; 
+    margin-left: 0;
+    padding-left: 0;
+    text-align: left;
+}
+/*remueve el underline a los links*/
+li a{
+    text-decoration: none;
+}
+
+
+
+/*se da formato al footer, utilizando las mismas características a los tres párrafos para
+ahorrar líneas de código*/
+
+.tarjeta, .envio, .seguridad{
+    font-size: 14px;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 10%;
+    
+}
+/*da formato a los íconos, tanto tamaño como color y márgnen*/
+.tarjeta i{
+    font-size: 2em;
+    color:#1259c3; 
+    margin-bottom: 10px;
+}
+/* se da formato a h3 y p contenidos en cada section para que cumpla con el formato */
+.tarjeta h3{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.tarjeta p{
+    margin-top: 0;
+}
+.envio i{
+    font-size: 2em;
+    color:#1259c3;
+    margin-bottom: 10px; 
+}
+.envio h3{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0
+}
+.envio p{
+    margin-top: 0;
+}
+
+.seguridad i{
+    font-size: 2em;
+    color:#1259c3;
+    margin-bottom: 10px;
+}
+.seguridad h3{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0
+}
+.seguridad p{
+    margin-top: 0;
+}
+
+/*se da formato al copy-right*/
+
+.copy{
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: small;
+}
