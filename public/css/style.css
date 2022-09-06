@@ -37,19 +37,20 @@ header{
     align-items: center;  
     margin: 0 auto;
     padding: 0 auto;
+    justify-content: space-around;
 }
 .logo{
     /*width: 300px;*/
     width: 45%;
     padding-top: 20px;
     padding-left: 20px;
-    flex-grow: 0.5;
+    
 }
 
 .barra-busqueda{
     padding-left: 20px;
-    flex-grow: 0.5;
-    width: 45%;
+    
+    width: 75%;
 }
 
 .comprá{
@@ -110,7 +111,7 @@ h2{
 .item{
     height: auto;
     margin: 10px;
-    padding-bottom: 15px;
+    padding-bottom: 1px;
     
 }
 .item-bot{
@@ -120,6 +121,8 @@ h2{
     border-top: 1px solid var(--grisClaro);
     position: relative;
     padding-left: 3%;
+    /*prueba*/
+    
 }
 /* da color verde al camión y el borde circular*/
 /*para posicionar el camion, se usa relative en el padre y absolute
@@ -134,17 +137,22 @@ en el "hijo"*/
     top: -20px;
     
 }
+/*probando*/
+.precio-descuento{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
 
 .precio{
     font-size: 18px;
-    margin: 0 auto;
-    
+    width: 30%;
 }
 
 .descuento{
     font-size: 16px;
     color: var(--verde);
-    
+    width: 70%;
 }
 
 .descripcion{
@@ -154,15 +162,17 @@ en el "hijo"*/
     
 }
 
+
 .navcontainer{
     padding-left: 0;
     display: none;
+    
 
 }
 /* le quita el punto a la lista desordenada y lo alínea a la izquierda*/
 .navcontainer ul{
     list-style: none; 
-    margin-left: 0;
+    margin-left: 35px;
     padding-left: 0;
     text-align: left;
 }
@@ -227,6 +237,9 @@ footer{
     }
     .barra-burguer{
         display: none;
+    }
+    .logo{
+        max-width: fit-content;
     }
 }
 
