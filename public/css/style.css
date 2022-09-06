@@ -52,7 +52,9 @@ header{
     
     width: 75%;
 }
-
+.busqueda{
+    width: 50%;
+}
 .comprá{
     text-align: center;
 }
@@ -222,6 +224,65 @@ footer{
     font-size:small;
     justify-content: center;
     text-align: center;
+}
+/*CSS DEL REGISTRO*/
+form{
+    width: 60vw;
+    max-width: 400px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+input,
+textarea,
+select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    background-color: white;
+    border: 1px solid var(--grisClaro)
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+fieldset{
+    border: none;
+    padding: 0.5rem 0;
+    margin-bottom: 0;
+}
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align:middle;
+}
+
+.interes, .tipo{
+    padding:0.5rem 0;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: var(--grisOscuro);
+    border-color: white;
+    min-width: 300px;
+}
+input[type="reset"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: var(--grisOscuro);
+    border-color: white;
+    min-width: 300px;
 }
 
 /* Resolución tablet*/
