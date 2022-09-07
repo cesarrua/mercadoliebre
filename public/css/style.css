@@ -13,7 +13,6 @@ html{
 main{
     margin: 0;
     
-    
 }
 
 body{
@@ -38,6 +37,8 @@ header{
     margin: 0 auto;
     padding: 0 auto;
     justify-content: space-around;
+    /*prueba*/
+    justify-items: center;
 }
 .logo{
     /*width: 300px;*/
@@ -53,7 +54,7 @@ header{
     width: 75%;
 }
 .busqueda{
-    width: 50%;
+    width: 60%;
 }
 .comprá{
     text-align: center;
@@ -164,12 +165,10 @@ en el "hijo"*/
     
 }
 
-
 .navcontainer{
     padding-left: 0;
     display: none;
     
-
 }
 /* le quita el punto a la lista desordenada y lo alínea a la izquierda*/
 .navcontainer ul{
@@ -233,6 +232,7 @@ form{
     margin: 0 auto;
     padding-bottom: 2em;
 }
+
 input,
 textarea,
 select {
@@ -306,5 +306,5 @@ input[type="reset"] {
 
 /* Resolución mayor */
 @media (min-width: 769px){
-    
+   
 }
